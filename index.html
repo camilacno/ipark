@@ -1,149 +1,293 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <script src="https://kit.fontawesome.com/7b12bcc245.js" crossorigin="anonymous"></script>
-    <title>Wedding Invite</title>
+    <title>O Ipark que se cuide</title>
 </head>
+
 <body>
-
-
-    <nav>
-        <input type="checkbox" id="check">
-        <label for="check" class="checkbtn">
-            <i class="fas fa-bars"></i>
-        </label>
-        <label class="logo">A&G</label>
-        <ul class="text">
-            <li><a href="#story" onclick="myFunction()">OUR STORY</a></li>
-            <li><a href="#stay" onclick="myFunction()">TRAVEL & STAY</a></li>
-            <li><a href="#registry" onclick="myFunction()">PROMISES</a></li>
-        </ul>
-    </nav>
-
+    <!-- <nav>
+      <input type="checkbox" id="check" />
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <ul class="text">
+        <li><a href="#roteiro" onclick="myFunction()">ROTEIRO</a></li>
+        <li><a href="#direcionais" onclick="myFunction()">DIRECIONAIS</a></li>
+        <li><a href="#listaPresenca" onclick="myFunction()">LISTA DE PRESENÇA</a></li>
+      </ul>
+    </nav>   -->
+    <audio id="meuAudio" loop>
+        <source src="assets/audio.mp3" type="audio/mpeg">
+    </audio>
 
     <div class="home hz-margin">
-        <h3>We'er getting married</h3>
-        <h1>Aman. & Gur.</h1>
+        <h2 style="margin-top: 60px;">O barraco está armado e</h2>
+        <h1>O Ipark que se cuide</h1>
         <div class="container-out">
-            
-            <div class="container-in text">
-                Friday, Oct. 20, 2023 <br>
-                ITC Sonar Bangla, Kolkata
+            <h2 >
+                Domingo, 14 de Julho de 2024<br />
+                Ipark
 
-                <button class="huge-btn">RSVP</button>
-            </div>
+            </h2>
             <div class="home-img" id="home-img-lg"></div>
         </div>
     </div>
 
-
     <div class="home-img home-img-sm"></div>
-    <div class="timeline hz-margin reveal">
-        <h2>Celebrating Our Love <br>
-            With Those We Love
-        </h2>
+    <div class="timeline hz-margin reveal" id="roteiro">
+
         <div class="timeline-container">
+
             <div class="timeline-img"></div>
             <div class="timings">
-                <h3>01.&nbsp &nbsp Ceremony</h3>
-                <div class="text">Friday, Oct. 20, 2023 <br>
-                    ITC Sonar Bangla, Kolkata</div>
-                <h3>02.&nbsp &nbsp Reception</h3>
-                <div class="text">Sunday, Oct. 22, 2023 <br>
-                    Poddar Vihar, Kolkata</div>
+                <h2>
+                    Fazendo a GENTILEZA de chegar no horário
+                </h2>
+                <br />
+                <h3>01.&nbsp &nbsp Ponto de encontro & Café da manhã</h3>
+                <div class="text">
+                    Domingo, 14 de Julho de 2024 <br />
+                    Casa da Dona Bete - Rua Joaquim Jerônimo, 559 - Mondubim <br />
+                    Horário: <strong>07h</strong> (não é sete e quinze nem sete e meia,
+                    é <strong>SETE HORAS</strong> )
+                </div>
+                <h3>02.&nbsp &nbsp Saída</h3>
+                <div class="text">
+                    Domingo, 14 de Julho de 2024 <br />
+                    Horário: 08h
+                </div>
             </div>
         </div>
     </div>
 
-
     <div class="v-reposition-container">
         <div class="h-reposition-container">
-
-
-            <div id="story" class="hz-margin">
-                <h3 class="reveal">Not Just an <br>
-                    Ordinary Love Story
-                </h3>
-                <p class="text reveal">We met on ferry. Not sure if the kids remember that one. His female housemates encouraged him to get on it - he wasn't keen, but one night we ended up chatting and the next day we met up at the Tellypara Ghat. We spent nine hours together by the river, and I bought him a cotton candy and he says that's how he knew I was the one.</p>
-            </div>
-
-
             <div class="gallery hz-margin reveal">
                 <div class="gallery-img"></div>
                 <div class="gallery-img"></div>
                 <div class="gallery-img"></div>
             </div>
 
-
             <div class="quote reveal">
-                <h1>“To the world you are one person, but to one person you are the world”.</h1>
-                <div class="author text">Anonymous</div>
+                <h1>
+                    “A família é assim: um doido, um mais doido ainda e todos tentando
+                    conviver um com o outro”.
+                </h1>
+                <div class="author text">A Grande Família</div>
             </div>
 
+            <div class="gallery hz-margin reveal">
+                <div class="gallery-img2"></div>
+                <div class="gallery-img2"></div>
+                <div class="gallery-img2"></div>
+            </div>
 
-            <div class="hands" id="parallax1"></div>
+            <div style="display: flex; align-items: center; justify-content: center; margin-top: 30px;">
 
-
-            <div id="stay">
-                <h2 class="reveal">Travel and Stay</h2>
+                <h2 >DIRECIONAIS</h2>
+            </div>
+            <div id="direcionais" style="display: flex; align-items: center; justify-content: center;">
                 <div class="stay-container reveal">
                     <div class="stay-item">
-                        <h3>01. <br>
-                            Getting There
+                        <h3>
+                            01. <br />
+                            Confirme a presença
                         </h3>
-                        <div class="text">Easy-to-follow <br> directions to the venue</div>
-                        <div class="text links">MAP & DETAILS</div>
+                        <div class="text">Confirmar no grupo a presença OU <br /> avisar à Rebeca</BRQ>
+                        </div>
+                        <a class="text links" href="https://chat.whatsapp.com/FnBMN18t8qsGQmbw4guCB7"
+                            target="_blank">LINK PARA O GRUPO</a>
                     </div>
                     <div class="stay-item">
-                        <h3>02. <br>
-                            Once You're There
+                        <h3>
+                            02. <br />
+                            Tem carro?
                         </h3>
-                        <div class="text">Some fun things to do in <br> the area</div>
-                        <div class="text links">OUR RECOMMENDATIONS</div>
+                        <div class="text">
+                            Avise no grupo para confirmarmos <br />
+                            os carros disponíveis
+                        </div>
+                        <div class="text links">STATUS ATUAL</div>
                     </div>
                     <div class="stay-item">
-                        <h3>03. <br>
-                            Where to Stay
+                        <h3>
+                            03. <br />
+                            Tira o escorpião do bolso
                         </h3>
-                        <div class="text">Hotels and B&Bs <br> to check out</div>
-                        <div class="text links">LODGING OPTIONS</div>
+                        <div class="text">
+                            E manda R$5 pra o café da manhã <br />Pix:
+                        </div>
+                        <div class="text links">camila.cno@gmail.com</div>
                     </div>
                 </div>
             </div>
 
-
-            <div id="registry">
-                <div class="registry-container reveal">
-                    <h3>Promises</h3>
-                    <div class="text">
-                        I will provide welfare and happiness for you and the children that we bear and you shall offer me food and help whenever it is required. Together, we will protect our children and home and stand as each other's strength and courage. I will put every other person secodary to you. You make my like complete and promise to respect you. God bless you, my best friend. I pray thee, may my presence fill our life with joy and prospers.
-                    </div>
-                    <button class="huge-btn text">BLESS US</button>
-                </div>
-                <div class="registry-img registry-img-lg" id="parallax2"></div>
+            <div class="gallery hz-margin reveal">
+                <div class="gallery-img3"></div>
+                <div class="gallery-img3"></div>
+                <div class="gallery-img3"></div>
             </div>
-            <div class="registry-img registry-img-sm"></div>
 
+            <div style="display: flex; align-items: center; justify-content: center; margin-top: 30px;">
+
+                <h2 >LISTA DE PRESENÇA E CARROS</h2>
+            </div>
+            <div id="direcionais" style="display: flex; align-items: center; justify-content: center;">
+                <div class="stay-container reveal">
+                    <div class="stay-item" style="display: flex; align-items: center; justify-content: center; gap: 80px;">
+                       
+                        <div >
+                            <h3>
+                                01. <br />
+                                Bete
+                            </h3>
+                            <div>
+                                <input type="checkbox" id="scales" checked />
+                                <label for="scales">Bete</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="scales" checked />
+                                <label for="scales">Lívia</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="scales" checked />
+                                <label for="scales">Thalita</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="scales" checked />
+                                <label for="scales">Rebeca</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="scales" checked />
+                                <label for="scales">Raquel</label>
+                            </div>
+                        </div>
+                        <div class="stay-item">
+                            <h3>
+                                02. <br />
+                                Nathy
+                            </h3>
+                            <div>
+                                <input type="checkbox" id="scales" checked />
+                                <label for="scales">Nathy</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="scales" checked />
+                                <label for="scales">Adriana</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="scales" checked />
+                                <label for="scales">Dandara</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="scales" checked />
+                                <label for="scales">Lolita</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="scales" checked />
+                                <label for="scales">Tia Suely</label>
+                            </div>
+
+                        </div>
+                        <div class="stay-item">
+                            <h3>
+                                03. <br />
+                                Moreno
+                            </h3>
+                            <div>
+                                <input type="checkbox" id="scales" checked />
+                                <label for="scales">Moreno</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="scales" checked />
+                                <label for="scales">Raíssa</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="scales" checked />
+                                <label for="scales">Cecília</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="scales" checked />
+                                <label for="scales">Lulu</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="scales" checked />
+                                <label for="scales">Yasmin</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="display: flex; align-items: center; justify-content: center; gap: 80px;">
+                        <div class="stay-item">
+                            <h3>
+                                04. <br />
+                                Sabrina
+                            </h3>
+                            <div>
+                                <input type="checkbox" id="scales" />
+                                <label for="scales">Sabrina</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="scales" />
+                                <label for="scales">Lucas</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="scales"  checked/>
+                                <label for="scales">Pedro</label>
+                            </div>
+
+                        </div>
+                        <div class="stay-item">
+                            <h3>
+                                05. <br />
+                                Vinícius
+                            </h3>
+                            <div>
+                                <input type="checkbox" id="scales" checked />
+                                <label for="scales">Vinícius</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="scales" checked />
+                                <label for="scales">Camila</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="scales" checked />
+                                <label for="scales">Eliane</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="scales" />
+                                <label for="scales">Oscélio</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="scales" />
+                                <label for="scales">Letícia</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             <div class="parting-message reveal">
-                <h1>Hope to See You!</h1>
-                <button class="huge-btn">RSVP</button>
+                <h1>OREMOS!</h1>
             </div>
 
-
             <footer>
-                <h2>Give us a Call</h2>
-                <h2>Amandeep: 123-456-7890</h2>
-                <h2>Gurpreet: 123-456-7890</h2>
-                <div class="text">© 2023 for Aman and Gur. Made by <a href="https://twitter.com/NathArchak" class="text">@NathArchak</a></div>
+                <strong>Se tiver dúvidas:</strong>
+                <h2>Fala no grupo</h2>
+                <h2>Perturba a Rebeca</h2>
+                <h2>Ou fica com dúvida mesmo, não me perturbando tá ótimo</h2>
+
             </footer>
         </div>
     </div>
 
     <script src="main.js"></script>
 </body>
+
 </html>
